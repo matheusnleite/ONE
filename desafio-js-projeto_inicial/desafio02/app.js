@@ -1,14 +1,40 @@
-alert("Boas Vindas ao nosso site!"); //desafio 1
-let nome = "Lua"; //desafio 2
-let idade = 25; //desafio 3
-let numeroDeVendas = 50; //desafio 4
-let saldoDisponivel = 1000; //desafio 5
-alert("Erro! Preencha todos os campos"); //desafio 6
-let mensagemDeErro = "Erro! Preencha todos os campos"; //desafio 7
-alert(mensagemDeErro); //desafio 7
-nome = prompt("Qual o seu nome?"); //desafio 8
-idade = prompt("Qual a sua idade?"); //desafio 9
+//////////////////////////////Desafio 1
 
-if (idade >= 18) {
-  alert("Pode tirar a habilitação");
-}
+// dia = prompt('Qual dia da semana é hoje?');
+
+// if(dia == 'Sábado' || dia == 'Domingo'){
+//   alert('Bom fim de semana!');
+// }else{
+//   alert('Boa semana!');
+// }
+
+//////////////////////////////Desafio 2
+
+// numero = prompt('Digite um número:');
+
+// if(numero < 0){
+//   alert('O número digitado é negativo!');
+// }else{
+//   alert('O número digitado é positivo!');
+// }
+
+//////////////////////////////Desafio 3
+
+// pontos = prompt('Digite a quantidade de pontos: ');
+
+// if(pontos >= 100){
+//   alert('Parabéns, você venceu!');
+// }else{
+//   alert('Tente novamente para ganhar.');
+// }
+
+//////////////////////////////Desafio 4
+
+// saldo = 1000.00
+
+// alert(`Seu saldo atual é: R$${saldo},00`);
+
+//////////////////////////////Desafio 5
+
+// nome = prompt('Qual o seu nome?');
+// alert(`Bem vindo ${nome}!`);
