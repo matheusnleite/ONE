@@ -1,40 +1,39 @@
 //////////////////////////////Desafio 1
 
-// dia = prompt('Qual dia da semana é hoje?');
+// let contador = 1;
 
-// if(dia == 'Sábado' || dia == 'Domingo'){
-//   alert('Bom fim de semana!');
-// }else{
-//   alert('Boa semana!');
+// while(contador<=10){
+//     alert(contador);
+//     contador++;
 // }
+
 
 //////////////////////////////Desafio 2
 
-// numero = prompt('Digite um número:');
+// let contador = 10;
 
-// if(numero < 0){
-//   alert('O número digitado é negativo!');
-// }else{
-//   alert('O número digitado é positivo!');
+// while(contador>=0){
+//     alert(contador);
+//     contador--;
 // }
+
 
 //////////////////////////////Desafio 3
 
-// pontos = prompt('Digite a quantidade de pontos: ');
+// let numero = prompt("Digite um numero: ");
 
-// if(pontos >= 100){
-//   alert('Parabéns, você venceu!');
-// }else{
-//   alert('Tente novamente para ganhar.');
+// while(numero>=0){
+//     alert(numero);
+//     numero--;
 // }
 
 //////////////////////////////Desafio 4
 
-// saldo = 1000.00
+let numero = prompt("Digite um numero: ");
+let contador = 0
 
-// alert(`Seu saldo atual é: R$${saldo},00`);
+while(contador<=numero){
+    alert(contador);
+    contador++;
+}
 
-//////////////////////////////Desafio 5
-
-// nome = prompt('Qual o seu nome?');
-// alert(`Bem vindo ${nome}!`);
