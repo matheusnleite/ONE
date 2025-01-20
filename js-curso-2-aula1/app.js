@@ -11,6 +11,7 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto){ // funcao para otimizar o codigo, resumindo o que as 4 linhas acima faziam
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2}); // script que vai ler e falar um texto na sua pagina
 }
 
 
