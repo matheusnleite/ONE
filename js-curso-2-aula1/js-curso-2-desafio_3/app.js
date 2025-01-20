@@ -1,42 +1,58 @@
 //////////////////////////////Desafio 1
-// function olaMundo(){
-//     console.log('Olá, Mundo!');
+// let altura = 1.75 , peso = 70;
+// function calculaIMC(altura,peso){
+//     let imc = peso / (altura*altura);
+//      return imc;
 // }
-// olaMundo();
 
 //////////////////////////////Desafio 2
-// let nome = 'Matheus';
-// function cumprimentar(nome){
-//     console.log(`Olá, ${nome}`);
+// let numero = 4;
+// function calculaFatorial(numero){
+//     if(numero == 0 || numero == 1){
+//         return 1;
+//     }
+//     let fatorial = 1;
+//     for(let i=2;i<=numero;i++){
+//         fatorial *= i;// fatorial = fatorial * i
+//     }
+//     return fatorial;
 // }
-// cumprimentar(nome);
 
 //////////////////////////////Desafio 3
-// let numero = 2;
-// function dobro(numero){
-//     return numero * 2;
+// let valor = 5
+// let cotacao = 4.80
+// function converteReais(valor, cotacao){
+//     valorReal = valor * cotacao;
+//     return valorReal.toFixed(2);
 // }
-// console.log(dobro(numero));
 
 //////////////////////////////Desafio 4
-// let n1=4,n2=7,n3=5;
-// function calculaMedia(n1,n2,n3){
-//     let media = (n1+n2+n3)/3;
-//     return parseFloat(media.toFixed(1)); //retorna a media com apenas uma casa apos a virgula. OBS: o toFixed retorna uma string, se precisar do valor em numero, usar o parseFloat para converter
+// let altura = 8 , largura = 5;
+// function calculaAreaEPerimetroRetangulo(altura, largura){
+//     area = altura * largura;
+//     perimetro = altura + altura + largura + largura;
+//     console.log(`Área: ${area}`);
+//     console.log(`Perimetro: ${perimetro}`);
+    
 // }
-// console.log(calculaMedia(n1,n2,n3));
 
 //////////////////////////////Desafio 5
-// let n1=5,n2=3;
-// function compara(n1,n2){
-//     let maior = n1>n2 ? n1:n2;
-//     return maior;
+// let raio = 8;
+// function calculaAreaEPerimetroCirculo(raio){
+//     area = Math.PI * raio * raio;
+//     perimetro = 2 * Math.PI * raio;
+//     console.log(`Área: ${area}`);
+//     console.log(`Perimetro: ${perimetro}`);
+    
 // }
-// console.log(compara(n1,n2));
+
 
 //////////////////////////////Desafio 6
-let numero = 6;
-function multiplica(numero){
-    return numero * numero;
+
+let numero = 4;
+tabuada(numero);
+function tabuada(numero){
+    for(let i=1;i<=10;i++){
+        console.log(`${i} X ${numero} = ${i*numero}`);
+    }
 }
-console.log(multiplica(numero));
