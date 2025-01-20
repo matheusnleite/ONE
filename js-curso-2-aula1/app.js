@@ -28,6 +28,7 @@ function verificarChute(){ //funcao do botao de CHUTE
         let palavraTentativa = tentativas > 1? 'tentativas':'tentativa';
         let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
         exibirTextoNaTela('p', mensagemTentativas);
+        document.getElementById('chutar').setAttribute('disabled', true);
         document.getElementById('reiniciar').removeAttribute('disabled'); // vai buscar o elemento pelo id (getElementById) e remover o atributo (removeAttribute) que passarmos
     }else{ 
         if(chute > numeroSecreto){
@@ -68,4 +69,5 @@ function reiniciarJogo(){
     tentativas = 1;
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true);// colocando o atributo disabled novamente no botao
+    document.getElementById('chutar').removeAttribute('disabled');
 }
