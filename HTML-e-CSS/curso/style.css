@@ -1,9 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
+  height: 100vh; /* 100% da altura da tela */
+  box-sizing: border-box; /*Não deixa os componentes dentro do body sairem dele*/
   background-color: #000000;
   color: #f6f6f6;
 }
