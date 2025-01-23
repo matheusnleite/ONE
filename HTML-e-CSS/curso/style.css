@@ -36,3 +36,21 @@ body {
   font-size: 24px;
   font-family: "Montserrat", serif;
 }
+
+.apresentacao__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apresentacao__links__link {
+  background-color: #22d4fd;
+  width: 280px;
+  text-align: center; /*Alinhando o texto dentro do botao*/
+  border-radius: 16px; /*Deixa as bordas do botão arredondadas*/
+  font-size: 24px;
+  padding: 21.5px 0; /*Espaçamento interno do botão*/
+  text-decoration: none;
+  color: #000000;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+}
