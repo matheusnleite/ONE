@@ -17,7 +17,7 @@ body {
 }
 
 .apresentacao {
-  margin: 10%;
+  margin: 15%;
   display: flex; /*Para implementar a flexbox na página, essa propripedade deve ser colocada no elemento pai (flexbox)*/
   align-items: center; /*Alinha os itens no centro em relação ao item de maior altura (flexbox)*/
   justify-content: space-between; /*Distribui os itens de forma igual (flexbox)*/
@@ -25,6 +25,9 @@ body {
 
 .apresentacao__conteudo {
   width: 615px;
+  display: flex;
+  flex-direction: column; /*Alinha os itens em coluna (flexbox)*/
+  gap: 40px; /*Espaçamento entre os itens (flexbox)*/
 }
 
 .apresentacao__conteudo__titulo {
