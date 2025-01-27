@@ -6,10 +6,16 @@
 }
 
 body {
-  /*height: 100vh; /* 100% da altura da tela */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center;
+  height: 100vh; /* 100% da altura da tela */
   box-sizing: border-box; /*Não deixa os componentes dentro do body sairem dele*/
   background-color: #000000;
   color: #f6f6f6;
+  overflow-y: auto; /* Adiciona barra de rolagem vertical quando necessário */
+  overflow-x: hidden; /* Evita rolagem horizontal indesejada */
 }
 
 .titulo-destaque {
@@ -17,7 +23,7 @@ body {
 }
 
 .apresentacao {
-  margin: 10%;
+  margin: 15%;
   display: flex; /*Para implementar a flexbox na página, essa propripedade deve ser colocada no elemento pai (flexbox)*/
   align-items: center; /*Alinha os itens no centro em relação ao item de maior altura (flexbox)*/
   justify-content: center;
