@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 100vh; /* 100% da altura da tela */
+  /*height: 100vh; /* 100% da altura da tela */
   box-sizing: border-box; /*Não deixa os componentes dentro do body sairem dele*/
   background-color: #000000;
   color: #f6f6f6;
@@ -17,10 +17,11 @@ body {
 }
 
 .apresentacao {
-  margin: 15%;
+  margin: 10%;
   display: flex; /*Para implementar a flexbox na página, essa propripedade deve ser colocada no elemento pai (flexbox)*/
   align-items: center; /*Alinha os itens no centro em relação ao item de maior altura (flexbox)*/
-  justify-content: space-between; /*Distribui os itens de forma igual (flexbox)*/
+  justify-content: center;
+  gap: 100px;
 }
 
 .apresentacao__conteudo {
@@ -56,4 +57,9 @@ body {
   color: #000000;
   font-family: "Montserrat", serif;
   font-weight: 600;
+}
+
+.apresentacao__imagem {
+  width: 488px;
+  border-radius: 300px;
 }
